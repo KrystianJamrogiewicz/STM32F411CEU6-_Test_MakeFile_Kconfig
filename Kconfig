@@ -1,0 +1,17 @@
+# MENU Title
+mainmenu "Firmware Configuration"
+
+# Submenu title
+menu "LED Settings"
+
+# Parameter 1 to set
+config LED_BLINK_ENABLE
+	bool "Turn on the LED blinking"
+	default y
+
+# Parameter 2 to set
+config BLINK_SPEED_MS
+	int "LED blinking time (in milliseconds)"
+	default 500
+
+endmenu
