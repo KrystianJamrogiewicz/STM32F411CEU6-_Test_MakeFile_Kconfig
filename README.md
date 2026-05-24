@@ -1,6 +1,6 @@
 # STM32F411CEU6 Makefile, Kconfig test
-
-Test bare-metale project using MakeFile and Kconfig in C language for the STM32F411CEU6 (Black Pill) microcontroller. Low-level GPIO register mappingand register-level programming based on technical documentation:
+---
+Test bare-metale project using MakeFile and Kconfig in C language for the STM32F411CEU6 (Black Pill) microcontroller. Low-level GPIO register mapping and register-level programming based on technical documentation:
 
 - **RM0383 Reference manual**: STM32F411xC/E advanced Arm®-based 32-bit MCUs
 
