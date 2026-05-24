@@ -10,14 +10,22 @@ Test bare-metale project using MakeFile and Kconfig in C language for the STM32F
 The purpose of the project is to control the built-in LED on pin PC13.
 In the Kconfig menu it is possible to turn the LED blinking on and off and enter the blinking time in [ms].
 
-![Kconfig Menu Screenshot](docs/images/Kconfig_Menu_Screenshot.png)
+<p align="center">
+  <img src="docs/images/Kconfig_Menu_Screenshot.png" alt="Kconfig Menu Screenshot" width="700">
+</p>
 
 ---
 To open the interactive configuration menu and change LED settings:
+```bash
 make menuconfig
+```
 
 To compile the source code and generate the final .bin and .elf files:
+```bash
 make
+```
 
 To delete all temporary object files, binaries, and local configurations to start fresh:
+```bash
 make clean
+```
