@@ -7,7 +7,7 @@ Test bare-metale project using MakeFile and Kconfig in C language for the STM32F
 
 ---
 The purpose of the project is to control the built-in LED on pin PC13.
-In the Kconfig menu it is possible to turn the LED blinking on and off and enter the blinking time in [ms].
+In the Kconfig menu it is possible to turn the LED blinking `ON` and `OFF` and enter the blinking time in [ms].
 
 <p align="center">
   <img src="docs/images/Kconfig_Menu_Screenshot.png" alt="Kconfig Menu Screenshot" width="700">
